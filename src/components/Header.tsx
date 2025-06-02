@@ -12,11 +12,9 @@ const Header = ({ onCreateClick }: HeaderProps) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="MessageSquare" size={20} className="text-white" />
+              <Icon name="Coffee" size={20} className="text-white" />
             </div>
-            <h1 className="text-xl font-semibold text-gray-900">
-              Форум обсуждений
-            </h1>
+            <h1 className="text-xl font-semibold text-gray-900">Сплетницы</h1>
           </div>
 
           <Button
